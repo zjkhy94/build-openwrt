@@ -31,7 +31,7 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 
 # Add third-party software packages (The entire repository)
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
+git https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall-packages
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 # Add third-party software packages (Specify the package)
 # svn co https://github.com/libremesh/lime-packages/trunk/packages/{shared-state-pirania,pirania-app,pirania} package/lime-packages/packages
